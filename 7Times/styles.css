@@ -1,0 +1,40 @@
+body {
+    font-family: verdana;
+    font-size: 300%;
+  }
+  .title h1 {
+    color: rgb(255, 136, 0);
+    text-align: center;
+    text-decoration-line: overline;
+  }
+  .title h2{
+      color:rgb(255, 169, 70);
+      font-size: 50%;
+    }
+    .about, .teams {
+        float:left;
+    }
+    .careers, .search, .login {
+        float:right;
+    }
+  .title h1,
+  .title h2 {
+      display: inline;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-top: 20px;
+  }
+  p {
+    text-align: start;
+  }
+  .title {
+      margin-top: 30px;
+      margin-left: 60px;
+      margin-right: 60px;
+      text-align:center;
+  }
+  .montage {
+    text-align: center;
+    margin-right: 0px;
+  }
+  
