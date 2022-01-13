@@ -70,4 +70,23 @@ body {
     text-align: center;
     padding: 10px;
   }
+  .socials_images button {
+    border: none;
+    background-color: inherit;
+  }
+  #youtube_img:hover {
+    content:url(images/youtube_logo_hover.png);
+  }
+  #twitch_img:hover {
+    content:url(images/twitch_logo_hover.png);
+  }
+  #twitter_img:hover {
+    content:url(images/twitter_hover.png);
+  }
+  #insta_img:hover {
+    content:url(images/instagram_logo_hover.png);
+  }
+  .about:hover, .teams:hover, .login:hover, .search:hover, .careers:hover{
+    color: rgb(255, 136, 0);
+  }
   
